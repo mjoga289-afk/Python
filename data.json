@@ -1,0 +1,75 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "mjoga289@gmail.com",
+      "password": "admin123",
+      "ffid": "ADMIN_FFID",
+      "phone": "8801234567890",
+      "coins": 1000,
+      "verified": 0,
+      "created_at": "2025-03-24T12:00:00"
+    },
+    {
+      "id": 2,
+      "email": "user@example.com",
+      "password": "user123",
+      "ffid": "123456789",
+      "phone": "8801111111111",
+      "coins": 50,
+      "verified": 0,
+      "created_at": "2025-03-24T12:05:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "স্যাম্পল টাস্ক",
+      "description": "টাস্ক সম্পন্ন করলে ১০ কয়েন পাবেন",
+      "reward": 10,
+      "type": "daily",
+      "link": null,
+      "code": null,
+      "image_url": null,
+      "created_at": "2025-03-24T12:10:00"
+    }
+  ],
+  "tournaments": [
+    {
+      "id": 1,
+      "name": "টেস্ট টুর্নামেন্ট",
+      "type": "solo",
+      "map": "bermuda",
+      "entry_fee": 5,
+      "max_players": 50,
+      "prize_pool": "500",
+      "start_time": "2025-04-01T20:00:00",
+      "status": "upcoming",
+      "image_url": null,
+      "room_details": null,
+      "current_participants": 0,
+      "created_at": "2025-03-24T12:15:00"
+    }
+  ],
+  "tournament_participants": [],
+  "tournament_selections": [],
+  "completed_tasks": [],
+  "popups": [],
+  "about": [
+    {
+      "id": 1,
+      "content": "১. চিটিং নিষিদ্ধ\n২. লেভেল ৫০+",
+      "image_url": ""
+    }
+  ],
+  "config": [
+    {
+      "key": "global_notice",
+      "value": "নতুন টুর্নামেন্ট শীঘ্রই আসছে..."
+    },
+    {
+      "key": "support",
+      "value": "{\"whatsapp\":\"8801234567890\",\"telegram\":\"https://t.me/tunff09\"}"
+    }
+  ]
+}
